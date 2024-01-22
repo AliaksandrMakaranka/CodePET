@@ -15,11 +15,27 @@ public class TextData {
                                                  "f9pT2zZb3YvH2d3G4vL3Kc6NvL9o0H1W8vYR9E6V3V2p3I2";
 
 
+    private static final String OVER_MAX_TEXT_VALUE = MAX_TEXT_VALUE + "1";
+    private static final String OVER_MIN_TEXT_VALUE = "123456789";
+    private static final String EMPTY_TEXT = "";
+
     public static String getMinTextValue() {
         return MIN_TEXT_VALUE;
     }
 
     public static String getMaxTextValue() {
         return MAX_TEXT_VALUE;
+    }
+
+    public static String getOverMinTextValue() {
+        return OVER_MIN_TEXT_VALUE;
+    }
+
+    public static String getOverMaxTextValue() {
+        return OVER_MAX_TEXT_VALUE;
+    }
+
+    public static String getEmptyText() {
+        return EMPTY_TEXT;
     }
 }
